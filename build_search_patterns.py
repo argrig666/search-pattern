@@ -3,9 +3,10 @@ import subprocess
 import re
 import os
 
-PDF_PATH = "/home/argrig/Projects/Search Pattern/search pattern.pdf"
-PILOT_CXR_PATH = "/home/argrig/Projects/Search Pattern/chest_radiograph.txt"
-OUTPUT_TXT_PATH = "/home/argrig/Projects/Search Pattern/search_patterns.txt"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PDF_PATH = os.path.join(BASE_DIR, "search pattern.pdf")
+PILOT_CXR_PATH = os.path.join(BASE_DIR, "chest_radiograph.txt")
+OUTPUT_TXT_PATH = os.path.join(BASE_DIR, "search_patterns.txt")
 
 # Studies requiring manual page offset correction due to layout differences in PDF
 MANUAL_MAP = {
@@ -287,10 +288,10 @@ def split_atoms(text):
     return results if results else [text]
 
 def get_study_list():
-    out = subprocess.run(['pdftotext', 'search pattern.pdf', '-'], capture_output=True, text=True)
+    out = subprocess.run(['pdftotext', PDF_PATH, '-'], capture_output=True, text=True)
     pages = out.stdout.split('\x0c')
 
-    toc_out = subprocess.run(['pdftotext', '-layout', '-f', '10', '-l', '15', 'search pattern.pdf', '-'], capture_output=True, text=True)
+    toc_out = subprocess.run(['pdftotext', '-layout', '-f', '10', '-l', '15', PDF_PATH, '-'], capture_output=True, text=True)
     lines = toc_out.stdout.splitlines()
 
     studies = []

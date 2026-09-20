@@ -1,6 +1,11 @@
 import re
+import os
 
-with open('search_patterns.txt') as f:
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+INPUT_TXT = os.path.join(BASE_DIR, 'search_patterns.txt')
+OUTPUT_AHK = os.path.join(BASE_DIR, 'RadSearch_ProgressiveAccordion.ahk')
+
+with open(INPUT_TXT) as f:
     text = f.read()
 
 studies = []
@@ -1268,7 +1273,7 @@ final_code = final_code.replace('__SEC_NAME_MAP__', sec_name_lines)
 final_code = final_code.replace('__MOD_KEY_MAP__', mod_key_block)
 final_code = final_code.replace('__STUDY_KEY_MAP__', study_key_block)
 
-with open('RadSearch_ProgressiveAccordion.ahk', 'w') as f:
+with open(OUTPUT_AHK, 'w') as f:
     f.write(final_code)
 
 print(f'Successfully wrote RadSearch_ProgressiveAccordion.ahk ({len(final_code.splitlines())} lines)')
