@@ -234,13 +234,21 @@ Most hospital reading stations prevent software installation or accessing GitHub
 
 ---
 
-#### Method 3: Cloud Drive / Shared Network Folder Sync (Dropbox, OneDrive, Nextcloud, Syncthing, SMB)
-If your workstations share a secure clinical network drive or cloud folder:
-1. Only **two runtime files** are required to run RadSearch on any Windows PC:
-   - `RadSearch_ProgressiveAccordion.ahk`
-   - `search_patterns.txt`
-2. Sync this folder across machines via OneDrive, Nextcloud, or an SMB file share (`\\clinical-share\radiology\RadSearch`).
-3. Whenever `generate_script.py` is re-run on your dev machine, copy the updated `.ahk` and `.txt` files into the synced folder. All reading stations update automatically.
+#### Method 3: Real-Time Automatic Cloud Sync (Active OneDrive Integration)
+The primary development directory on this host is symlinked directly into OneDrive:
+```text
+/home/argrig/Projects/Search Pattern -> /home/argrig/OneDrive/Search Pattern
+```
+A native system service (`/usr/bin/onedrive --monitor`) continuously tracks this directory. 
+
+* **For Any Machine Logged into Your OneDrive (Laptops, Home PCs, Reading Stations):**
+  - **Zero Manual Action Required:** Any file created or edited (e.g. `PROJECT_GUIDE.md`, `search_patterns.txt`, `RadSearch_ProgressiveAccordion.ahk`) is instantly and automatically synced to the cloud and downloaded onto your other machines.
+  - Simply open the `Search Pattern` or `RadSearch` folder in your OneDrive on the Windows machine and run [`Run_RadSearch.bat`](file:///home/argrig/Projects/Search%20Pattern/Run_RadSearch.bat).
+* **For Workstations on Other Cloud or Network Drives (Nextcloud, Dropbox, Syncthing, SMB Share):**
+  - Only **two runtime files** are required to operate RadSearch on any Windows PC:
+    1. `RadSearch_ProgressiveAccordion.ahk`
+    2. `search_patterns.txt`
+  - Placing or symlinking these two files in any shared drive (`\\hospital-share\radiology\RadSearch` or a shared cloud folder) guarantees all reading stations stay updated whenever `generate_script.py` is executed.
 
 ---
 
