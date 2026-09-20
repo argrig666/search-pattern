@@ -1,0 +1,195 @@
+CHEST>RADIOGRAPH>
+1. Frontal view
+1.1 Lines and tubes
+1.1.1 Identification and course
+1.1.2 Tip and side hole position
+1.1.3 Malposition or device failure
+1.1.4 Complications (pneumothorax, perforation, hematoma)
+1.2 Foreign bodies
+1.2.1 Retained foreign bodies
+1.2.2 Aspirated foreign bodies
+1.3 Soft tissues
+1.3.1 Abdomen
+1.3.1.1 Free air (subdiaphragmatic)
+1.3.1.2 Extraluminal air (retroperitoneal / bowel wall)
+1.3.1.3 Calcifications
+1.3.1.4 Clips and surgical hardware
+1.3.2 Chest wall, neck, and arms
+1.3.2.1 Subcutaneous air
+1.3.2.2 Densities, calcifications, and masses
+1.3.2.3 Soft tissue symmetry
+1.3.2.4 Post-surgical changes (mastectomy, resection)
+1.4 Bones
+1.4.1 Mineralization and bone quality
+1.4.1.1 Demineralization / osteopenia
+1.4.1.2 Diffuse sclerosis
+1.4.1.3 Deformity or missing bone
+1.4.2 Ribs
+1.4.2.1 Posterior ribs
+1.4.2.2 Lateral ribs
+1.4.2.3 Anterior ribs
+1.4.2.4 Fractures and callus / periosteal reaction
+1.4.2.5 Lytic and sclerotic lesions
+1.4.2.6 Rib notching, cervical ribs, and segmentation anomalies
+1.4.3 Shoulder girdle and sternum
+1.4.3.1 Clavicles and AC joints
+1.4.3.2 Sternoclavicular junctions (blind spot)
+1.4.3.3 Scapulae and humeri
+1.4.4 Spine (cervical and thoracic)
+1.4.4.1 Fractures and compression
+1.4.4.2 Lytic and sclerotic lesions
+1.4.4.3 Pedicle integrity ("winking owl" sign)
+1.4.4.4 Alignment and scoliosis
+1.5 Mediastinum
+1.5.1 Cardiac silhouette
+1.5.1.1 Size / cardiomegaly
+1.5.1.2 Shape change / pericardial effusion
+1.5.1.3 Position and situs
+1.5.1.4 Valve replacements and surgical rings
+1.5.1.5 Sternotomy wires (alignment, fracture)
+1.5.1.6 Pacemaker / ICD (generator, lead integrity and tip position)
+1.5.2 Mediastinal contour and width
+1.5.2.1 Shift or widening
+1.5.2.2 Pneumomediastinum and pneumopericardium
+1.5.2.3 Air-fluid levels (hiatal hernia, abscess)
+1.5.3 Right mediastinal borders
+1.5.3.1 Paratracheal stripe
+1.5.3.2 SVC and azygos vein
+1.5.3.3 Ascending aorta
+1.5.3.4 Right heart border
+1.5.3.5 Right cardiophrenic angle
+1.5.4 Left mediastinal borders
+1.5.4.1 Left paratracheal stripe
+1.5.4.2 Aortic knob
+1.5.4.3 Aortopulmonary (AP) window
+1.5.4.4 Main pulmonary trunk
+1.5.4.5 Left atrial appendage
+1.5.4.6 Left heart border
+1.5.4.7 Left cardiophrenic angle
+1.5.5 Central lines and recesses
+1.5.5.1 Azygoesophageal recess
+1.5.5.2 Paraspinal lines
+1.5.5.3 Anterior and posterior junction lines
+1.5.5.4 Indistinct contours and double densities
+1.6 Hila
+1.6.1 Contour, location, and density
+1.6.1.1 Height and symmetry (left higher than right)
+1.6.1.2 Displacement (elevation or depression)
+1.6.1.3 Enlargement, nodularity, or mass
+1.6.1.4 Calcifications
+1.6.2 Pulmonary arteries
+1.6.2.1 Interlobar pulmonary artery caliber (pulmonary hypertension)
+1.6.3 Hilum overlay sign
+1.6.3.1 Preserved hilar vessels (anterior/posterior mass vs hilar mass)
+1.6.4 Vascular congestion and edema
+1.6.4.1 Indistinct central pulmonary vessels
+1.6.4.2 Cephalization / redistribution of pulmonary veins
+1.7 Airways
+1.7.1 Trachea
+1.7.1.1 Displacement / deviation
+1.7.1.2 Caliber (focal or diffuse narrowing)
+1.7.2 Bronchi and lumens
+1.7.2.1 Mainstem bronchi patency
+1.7.2.2 Intraluminal cutoff, mucus plug, or foreign body
+1.7.3 Bronchiectasis and bronchial wall thickening
+1.8 Pleura
+1.8.1 Pneumothorax
+1.8.1.1 Apical pleural line
+1.8.1.2 Lateral lung margin
+1.8.1.3 Medial / paramediastinal lucency
+1.8.1.4 Deep sulcus sign and basilar lucency (supine)
+1.8.1.5 Absence of peripheral vascular markings
+1.8.1.6 Tension signs (mediastinal shift, diaphragmatic depression)
+1.8.2 Pleural effusion
+1.8.2.1 Blunted costophrenic angles
+1.8.2.2 Hazy hemithorax opacity (supine)
+1.8.2.3 Loculated fluid or pleural masses
+1.8.2.4 Hydropneumothorax (air-fluid level)
+1.8.3 Pleural thickening and plaques
+1.8.3.1 Apical caps
+1.8.3.2 Diaphragmatic plaques and calcifications
+1.9 Lungs
+1.9.1 Diaphragms and lung volumes
+1.9.1.1 Contour and height symmetry
+1.9.1.2 Flattening / hyperexpansion (air trapping, COPD)
+1.9.1.3 Elevation / volume loss (atelectasis, collapse)
+1.9.1.4 Subpulmonic effusion (lateral peaking of dome)
+1.9.2 Symmetry and zonal comparison
+1.9.2.1 Overall hemithorax opacity comparison
+1.9.2.2 Upper, mid, and lower zone symmetry
+1.9.2.3 Asymmetric or changing apical caps
+1.9.3 Abnormal opacities
+1.9.3.1 Consolidation (air bronchograms)
+1.9.3.2 Ground-glass / hazy opacities
+1.9.3.3 Nodules and masses
+1.9.3.4 Tubular / branching densities
+1.9.4 Abnormal lucencies
+1.9.4.1 Bullae and cysts
+1.9.4.2 Cavitary lesions
+1.9.4.3 Herniated bowel loops
+1.9.5 Vasculature and interstitium
+1.9.5.1 Interstitial reticular / nodular opacities
+1.9.5.2 Septal lines (Kerley B lines)
+1.9.5.3 Vessel caliber and peripheral pruning
+1.9.6 Frontal blind spots
+1.9.6.1 Lung apices
+1.9.6.2 Retrocardiac region
+1.9.6.3 Hilar regions
+1.9.6.4 Subdiaphragmatic lung bases
+2. Lateral view
+2.1 Lines, tubes, and hardware
+2.1.1 Frontal correlation (tube depth, anterior/posterior positioning)
+2.2 Extrathoracic soft tissues
+2.2.1 Visualized neck and soft tissues
+2.2.2 Anterior chest wall
+2.2.3 Visualized upper abdomen
+2.3 Bones
+2.3.1 Thoracic spine
+2.3.1.1 Vertebral body heights / compression fractures
+2.3.1.2 Intervertebral disc spaces
+2.3.1.3 Alignment and kyphosis
+2.3.1.4 Flowing ossification / syndesmophytes (DISH, OPLL, AS)
+2.3.1.5 Lytic and sclerotic lesions
+2.3.2 Sternum (blind spot)
+2.3.2.1 Sternal fractures
+2.3.2.2 Sternal lesions
+2.3.3 Thoracic cage morphology
+2.3.3.1 Pectus excavatum and carinatum
+2.3.3.2 Barrel chest deformity
+2.4 Mediastinum
+2.4.1 Cardiac silhouette
+2.4.1.1 Right ventricular enlargement (sternal contact > 1/3)
+2.4.1.2 Left ventricular enlargement (posterior extension beyond IVC)
+2.4.1.3 Cardiac incisura (normal variant vs mass)
+2.4.2 Great vessels
+2.4.2.1 Thoracic aorta caliber and aneurysm
+2.4.2.2 Pulmonary arteries
+2.4.3 Esophagus and retrocardiac space
+2.4.3.1 Esophageal dilation and air-fluid levels
+2.4.3.2 Hiatus hernia
+2.5 Hila
+2.5.1 Contour, density, and positioning
+2.6 Airways, pleura, and lungs
+2.6.1 Trachea and mainstem bronchi
+2.6.1.1 Patency and posterior membrane impingement
+2.6.2 Pleura and diaphragms
+2.6.2.1 Posterior costophrenic angles (early effusion)
+2.6.2.2 Diaphragmatic contours and flattening
+2.6.3 Lungs and clear spaces
+2.6.3.1 Spine sign (normal caudal lucency vs progressive lower spine opacity)
+2.6.3.2 Retrosternal clear space (anterior mediastinal mass vs emphysema)
+2.6.3.3 Retrocardiac clear space (lower lobe consolidation/collapse)
+2.6.3.4 Infrahilar and retrotracheal clear spaces
+2.6.3.5 Major and minor fissures (position, thickening, fluid)
+3. Last checks & blind spots
+3.1 Critical life-threats
+3.1.1 Tension pneumothorax
+3.1.2 Pneumomediastinum
+3.1.3 Pneumoperitoneum (free air under diaphragm)
+3.1.4 Support device malposition / acute complication
+3.1.5 Airway foreign body / acute obstruction
+3.2 The Four Classic Blind Spots
+3.2.1 Lung apices
+3.2.2 Hila
+3.2.3 Retrocardiac space
+3.2.4 Subdiaphragmatic / costophrenic regions
